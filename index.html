@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Hangman | Doondi</title>
+</head>
+
+<body>
+    <header>
+        <h1>Hangman</h1>
+
+        <section class="menu">
+            <ul class="menu-list">
+                <li><a href="https://en.wikipedia.org/wiki/Hangman_(game)" class="active" style="text-decoration: none;">About Game</a></li>
+                <li><a href="game.html" class="active" style="text-decoration: none;">Play</a></li>
+                <li><a href="https://github.com/doondigangadhar30/HangmanGameApp" class="active" style="text-decoration: none;">Source Code</a></li>
+                <li><a href="https://www.linkedin.com/in/doondi" class="active" style="text-decoration: none;">Contact</a></li>
+            </ul>
+            <button>
+                <i class="fas fa-times"></i>
+                <i class="fas fa-bars"></i>
+            </button>
+        </section>
+    </header>
+
+    <section class="main">
+
+        <section class="left">
+            <p class="title">Letter by Letter—Don't Let Him Hang!</p>
+            <p class="msg">A game where player guess <b style="color: black;">Celebrities, Tourist spots and Programming words</b>. Correct guesses save the man,
+                 while wrong guesses bring him closer to being hanged</p>
+            <button class="cta"><a href="game.html" style="text-decoration: none; color: white;">Start Game</a>
+            </button>
+        </section>
+
+        <section class="right">
+            <img src="hangmangif.gif" alt="Langing image">
+        </section>
+
+    </section>
+
+    <script>
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu button');
+        menuBtn.addEventListener('click', () => {
+            menu.classList.toggle('opened')
+        })
+    </script>
+
+
+</body>
+
+</html>
