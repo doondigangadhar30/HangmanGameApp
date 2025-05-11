@@ -36,7 +36,8 @@ Test your knowledge by guessing words related to **celebrities, tourist places, 
 ## 🖼️ Screenshots  
 
 ### **Desktop Version**  
-![HangManLandingPage](https://github.com/user-attachments/assets/ba1c8f4d-a815-4a89-9bba-f75227e552e7)
+<img src="https://github.com/user-attachments/assets/ba1c8f4d-a815-4a89-9bba-f75227e552e7" width="1010" height="auto">
+
 ![image](https://github.com/user-attachments/assets/ac78104c-86d5-48d5-a77e-ba18343e0e2e)
 ![image](https://github.com/user-attachments/assets/c38028c2-189f-40d6-b7ad-914b8d0b3b27)
 
