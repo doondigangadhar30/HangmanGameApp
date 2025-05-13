@@ -11,29 +11,27 @@ const resultText = document.getElementById("result-text");
 
 let options = {
   celebrities: [
-    // Indian Celebrities
-    "Shah Rukh Khan", "Deepika Padukone", "Ranveer Singh", "Alia Bhatt", "Amitabh Bachchan", "Priyanka Chopra",
-    "Virat Kohli", "Anushka Sharma", "Salman Khan", "Katrina Kaif", "Hrithik Roshan", "Kareena Kapoor",
-    "Aishwarya Rai Bachchan", "Rajinikanth", "Mahesh Babu", "Nayanthara", "Vijay", "Dhanush", "Pooja Hegde",
-    "Yash", "Samantha Ruth Prabhu", "Rashmika Mandanna", "Allu Arjun", "Kiara Advani", "Tiger Shroff",
-    "Vicky Kaushal", "Sara Ali Khan", "Jr. NTR", "Ram Charan", "Rani Mukerji",
-    // Global Celebrities
-    "Tom Cruise", "Taylor Swift", "Beyoncé", "Leonardo DiCaprio", "Robert Downey Jr.", "Zendaya",
-    "Chris Hemsworth", "Jennifer Lawrence", "Angelina Jolie", "Johnny Depp", "Will Smith", "Margot Robbie",
-    "Dwayne Johnson", "Lady Gaga", "Ariana Grande", "Keanu Reeves", "Emma Watson", "Brad Pitt",
-    "Selena Gomez", "Ryan Reynolds"
+    "shahrukhkhan", "deepikapadukone", "ranveersingh", "aliabhatt", "amitabhbachchan", "priyankachopra",
+    "viratkohli", "anushkasharma", "salmankhan", "katrinakaif", "hrithikroshan", "kareenakapoor",
+    "aishwaryaraibachchan", "rajinikanth", "maheshbabu", "nayanthara", "vijay", "dhanush", "poojahegde",
+    "yash", "samantharuthprabhu", "rashmikamandanna", "alluarjun", "kiaraadvani", "tigershroff",
+    "vickykaushal", "saraalikhan", "jr.ntr", "ramcharan", "ranimukerji",
+    "tomcruise", "taylorswift", "beyoncé", "leonardodicaprio", "robertdowneyjr", "zendaya",
+    "chrishemsworth", "jenniferlawrence", "angelinajolie", "johnnydepp", "willsmith", "margotrobbie",
+    "dwaynejohnson", "ladygaga", "arianagrande", "keanureeves", "emmawatson", "bradpitt",
+    "selenagomez", "ryanreynolds"
   ],
 
   touristPlaces: [
-    "Taj Mahal", "Great Wall of China", "Eiffel Tower", "Colosseum", "Statue of Liberty", "Machu Picchu",
-    "Christ the Redeemer", "Petra", "Pyramids of Giza", "Grand Canyon", "Niagara Falls", "Santorini",
-    "Mount Fuji", "Sydney Opera House", "Burj Khalifa", "Banff National Park", "Great Barrier Reef",
-    "Angkor Wat", "Mount Everest", "Bora Bora", "Stonehenge", "Lake Bled", "Maldives", "Serengeti",
-    "Cinque Terre", "Hallstatt", "Yellowstone National Park", "Blue Lagoon", "Neuschwanstein Castle",
-    "Alhambra", "Golden Gate Bridge", "Sagrada Familia", "Galápagos Islands", "Mount Kilimanjaro",
-    "Tulum", "Louvre Museum", "Chichen Itza", "Dead Sea", "Plitvice Lakes", "Athens Acropolis",
-    "Ha Long Bay", "Dubai Marina", "Victoria Falls", "Table Mountain", "Lake Como", "Jeju Island",
-    "Munnar", "Gulmarg", "Amritsar Golden Temple", "Varanasi Ghats"
+    "tajmahal", "greatwallofchina", "eiffeltower", "colosseum", "statueofliberty", "machupicchu",
+    "christtheredeemer", "petra", "pyramidsofgiza", "grandcanyon", "niagarafalls", "santorini",
+    "mountfuji", "sydneyoperahouse", "burjkhalifa", "banffnationalpark", "greatbarrierreef",
+    "angkorwat", "mounteverest", "borabora", "stonehenge", "lakebled", "maldives", "serengeti",
+    "cinqueterre", "hallstatt", "yellowstonenationalpark", "bluelagoon", "neuschwansteincastle",
+    "alhambra", "goldengatebridge", "sagradafamilia", "galápagosislands", "mountkilimanjaro",
+    "tulum", "louvremuseum", "chichenitza", "deadsea", "plitvicelakes", "athensacropolis",
+    "halongbay", "dubaimarina", "victoriafalls", "tablemountain", "lakecomo", "jejuisland",
+    "munnar", "gulmarg", "amritsargoldentemple", "varanasighats"
   ],
 
   programming : [
